@@ -1,0 +1,100 @@
+Precision, Recall and F-Score measures for various POS tags are as reported below. Please do note that the measures for the 'X' tag are relatively low. This can be attributed to the fact that there may be several new words belonging to that category which were not found in the training data.
+Some of the below entries might reflect as 'NaN'. This could be due to two reasons - the POS tag doesn't occur in the test corpus at all; or the model didn't tag any word under that category.
+
+{
+    "ADJ" = {
+        "Precision" = 0.91577
+
+        "Recall" = 0.91361
+
+        "F-Score" = 0.91469
+    }
+
+    "NOUN" = {
+        "Precision" = 0.95439
+
+        "Recall" = 0.96295
+
+        "F-Score" = 0.95865
+    }
+
+    "CONJ" = {
+        "Precision" = 0.99607
+
+        "Recall" = 0.99373
+
+        "F-Score" = 0.9949
+    }
+
+    "PRON" = {
+        "Precision" = 0.98251
+
+        "Recall" = 0.95876
+
+        "F-Score" = 0.97049
+    }
+
+    "VERB" = {
+        "Precision" = 0.95324
+
+        "Recall" = 0.97224
+
+        "F-Score" = 0.96265
+    }
+
+    "." = {
+        "Precision" = 0.9996
+
+        "Recall" = 0.99628
+
+        "F-Score" = 0.99794
+    }
+
+    "DET" = {
+        "Precision" = 0.98473
+
+        "Recall" = 0.9676
+
+        "F-Score" = 0.97609
+    }
+
+    "ADP" = {
+        "Precision" = 0.96649
+
+        "Recall" = 0.95034
+
+        "F-Score" = 0.95835
+    }
+
+    "PRT" = {
+        "Precision" = 0.90237
+
+        "Recall" = 0.91275
+
+        "F-Score" = 0.90753
+    }
+
+    "ADV" = {
+        "Precision" = 0.89908
+
+        "Recall" = 0.90442
+
+        "F-Score" = 0.90174
+    }
+
+    "NUM" = {
+        "Precision" = 0.92772
+
+        "Recall" = 0.97277
+
+        "F-Score" = 0.94971
+    }
+
+    "X" = {
+        "Precision" = 0.592
+
+        "Recall" = 0.52113
+
+        "F-Score" = 0.55431
+    }
+}

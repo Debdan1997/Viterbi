@@ -1,0 +1,27 @@
+Part 1A
+
+
+Language:-
+python 3.6.9
+
+Packages used:-
+pickle, os, json, numpy, sys, math
+
+
+Running the script:-
+
+To run the script, go to the src directory and open the terminal. Give the absolute path to test file as an argument to the script.
+example usage:
+	~$ python3 viterbi.py /home/dhasj/machine-translation/15/1A/data/test1.txt
+
+The output should be available as a file named 'output.txt' in the same folder from which the script is being run.
+
+
+Approach:-
+
+We choose to use viterbi algorithm for computing the optimal sequence of tags based on the conventional bigram and lexical probabilities(context independent). We even tried incorporating forward probabilities. While we expected it to outperform the conventional approach, the difference observed was not significant. Hence we decided to stick to the less computationally expensive approach as before. 
+
+
+Note:-
+
+The script uses pre-built models (found under rsc directory). If either the models/directory containing them is deleted/moved from its place relative to current script file (relative to vierbi.py), then the script may not run. 
